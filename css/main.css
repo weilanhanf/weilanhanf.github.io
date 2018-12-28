@@ -1,0 +1,195 @@
+/*.navbar-brand{*/
+    /*background-image: url(../image/v2-2d45613b0fb8cdd36f53c3b31d0c6ee8_hd.jpg);*/
+    /*width: 50px;*/
+    /*background-size: 75%;*/
+    /*background-repeat:no-repeat;*/
+    /*background-position: center, center;*/
+/*}*/
+/*.navbar-brand{*/
+    /*background-color: black;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+/*.list-group-item .side-bar{*/
+    /*background-color: #2a6496;*/
+    /*border-radius: 0px;*/
+/*}*/
+
+.navbar-list li:hover{
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-right li:active{
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.side-bar .list-group-item {
+    border: 0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.side-bar .list-group-item .active {
+    background-color: #337ab7;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.avatar{
+    display: inline-block;
+}
+
+.avatar img{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+.blog-list-item{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #adadad;
+}
+
+.blog-list-item:last-child{
+    border-bottom: 0;
+}
+
+.blog-list-item:first-child{
+    padding-top: 0;
+}
+
+.blog-list-item .title{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.blog-list-item .title:hover {
+    color: #9d9d9d;
+}
+
+.blog-list-item .info{
+    color: #9d9d9d;
+}
+
+.side-bar-card{
+    background: rgba(0,0,0,.06);
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.side-bar-card .side-bar-introduction{
+    padding-left: 5px;
+    line-height: 1.8;
+    color: #9d9d9d;
+    font-size: 15px;
+
+}
+
+.side-bar-card .side-bar-phone{
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.side-bar-recommend{
+    margin-top: 10px;
+}
+
+.side-bar-card .side-bar-title{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.side-bar-recommend .side-bar-list .side-bar-item{
+    padding: 15px 15px;
+}
+
+.side-bar-recommend .side-bar-list .side-bar-item:hover{
+    padding: 15px 15px;
+    background-color: rgba(0,0,0, .09);
+}
+
+.side-bar-recommend .side-bar-list .side-item-title{
+    color: black;
+}
+
+.side-bar-recommend .side-bar-list .side-item-title:hover{
+        color: #9d9d9d;
+}
+
+
+.side-bar-recommend .side-bar-list .side-item-info{
+    color: #9d9d9d;
+    font-size: 12px;
+}
+
+
+/*博客补充css*/
+.blog-title{
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.blog-info{
+    line-height: 1.8;
+    color: #9d9d9d;
+    font-size: 15px;
+}
+/*标签内部垂直居中*/
+/*https://blog.csdn.net/DreamFJ/article/details/68921957*/
+.blog-info .label,
+.blog-info img {
+}
+
+.blog-info .label{
+    opacity: 0.8;
+}
+
+.blog-content{
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.blog-content img{
+    margin: 15px auto;
+}
+
+.modal-footer{
+    margin-top: 30px;
+}
+
+/*移动端自适应*/
+#toggle-checkbox:checked ~ div{
+    display: block !important;
+}
+
+.toggle-label{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #777;
+}
+
+.toggle-label:hover{
+    color: #333;
+}
